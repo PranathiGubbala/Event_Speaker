@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign Up</title>
+	<link rel = "stylesheet" type " text/css" href = "UserDetails.css">
+</head>
+<body>
+<div class = "login-box">
+	<img src = "SignUpLogo.png" class = "avatar">
+		<h1>SIGN UP</h1>
+<form action="Controller"  method="POST">
+<p>UserName</p>
+<input type="text"  name="name"  placeholder="UserName" required = "required"/><br>
+<p>Password</p>
+<input type="password" name="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+<p>College Name</p>
+<input type="text"  name="college"  placeholder="collegeName" required = "required"/><br>
+<p>College Code</p>
+<input type="text"  name="collegeId"  placeholder="collegeId" required = "required"/><br>
+<p>Designation</p>
+<input type="text"  name="designation"  placeholder="Designation" required = "required"/><br>
+<p>Email</p>
+<input type="email"  name="email"  placeholder="email" required = "required"/><br>
+<p>Contact Number</p>
+<input type="tel"  name="contact"  pattern = "\d{10}$" placeholder="phone"  required = "required"/><br>
+<p>Address</p>
+<p>House No.</p>
+<input type="text"  name="houseNo"  placeholder="HouseNo"  required = "required"/><br>
+<p>Street</p>
+<input type="text"  name="street"  placeholder="street"  required = "required"/><br>
+  <p>City</p>
+<input type="text"  name="city"  placeholder="city" required = "required"/><br>
+<p>State</p>
+<input type="text"  name="state"  placeholder="state"  required = "required"/><br>
+ <p>Pincode</p>
+<input type="text"  name="pincode"  placeholder="pincode"  required = "required"/><br>
+<input type = "hidden" name= "action"  value = "RegisterUser">
+<input type="submit" name="s" value="Sign Up"/>
+</form>
+</body>
+</html>
