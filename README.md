@@ -1,4 +1,4 @@
 # EventSpeaker
 
 A website that helps in exploring upcoming college events. 
-It is developed using Java, HTML, Bootstrap, Gmail API(For sending an invitation from the website), MySQL.
+It is developed using Java, HTML, Bootstrap, Gmail API (For sending an invitation from the website), MySQL.
